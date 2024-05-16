@@ -1,33 +1,17 @@
-*,*:before, *:after {
-    box-sizing: border-box;
-}
+
 body {
     font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #ffffff;
-    margin: 0;
 }
 .container {
     width: 1128px;
     margin: 0 auto;      
 }
-.header {
+.page-header {
     background-color:#fff;
-    height: 72px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
-.header-wrapper {
-   
-}
-.header-ul {
-    display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: row;
-gap: 40px;
-}
+
 .header-logo {
     font-family: Raleway, sans-serif;
     text-transform: uppercase;
