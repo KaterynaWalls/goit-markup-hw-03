@@ -1,39 +1,52 @@
-
-body {
-font-family: Roboto, sans-serif;
-color: #434455;
-background-color: #ffffff;
-max-width: 1440px;
+*,*:before, *:after {
+    box-sizing: border-box;
 }
-.container-header {
-    padding-top: 24px 15px 24px 15px;
-    margin-right: 141px;
-    margin-left: 141px;
+body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+    margin: 0;
+}
+.container {
+    width: 1128px;
+    margin: 0 auto;      
+}
+.header {
+    background-color:#fff;
     height: 72px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
-.page-header {
-background-color:#fff;
+.header-wrapper {
+   
 }
-.header-logo{
-font-family: Raleway, sans-serif;
-text-transform: uppercase;
-color: #4d5ae5;
-font-weight: 700;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
+.header-ul {
+    display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 40px;
+}
+.header-logo {
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 .header-logo-cursive{
-font-family: Raleway, sans-serif;
-text-transform: uppercase;
-color: #2e2f42;
-font-weight: 700;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    color: #2e2f42;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
+
 .menu-nav-list {
 list-style: none;
 text-decoration: none;
@@ -43,10 +56,14 @@ font-size: 16px;
 line-height: 24px; 
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #2e2f42;}
+
+}
 
 .menu-nav-list a {
     color: #2e2f42;
+   
+
+
 }
 .menu-nav-list a:hover {
     color: #404bbf
@@ -61,18 +78,23 @@ line-height: 24px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42; 
+
 }
 
 .menu-nav a {
 text-decoration: none;
+
 }
 .page-header-contacts {
 font-style: normal;
+
 }
 
 .page-contacts-list a {
 text-decoration: none;
-color: #434455
+color: #434455;
+
+
 }
 .page-contacts-list a:hover {
     color: #404bbf
