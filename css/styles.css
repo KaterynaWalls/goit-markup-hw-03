@@ -3,6 +3,15 @@ body {
 font-family: Roboto, sans-serif;
 color: #434455;
 background-color: #ffffff;
+max-width: 1440px;
+}
+.container-header {
+    padding-top: 24px 15px 24px 15px;
+    margin-right: 141px;
+    margin-left: 141px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
 }
 .page-header {
 background-color:#fff;
