@@ -83,6 +83,7 @@ justify-content: flex-end;
 .page-contacts-list a {
 text-decoration: none;
 color: #434455;
+text-wrap: nowrap;
 
 
 
