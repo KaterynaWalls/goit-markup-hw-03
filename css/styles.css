@@ -304,14 +304,13 @@ ul, ol {
 }
 
     /*Portfolio section-four*/
-
+.portfolio {
+    padding: 120px 0 120px 0; 
+}
 .container {
     width: 1158px;;
     padding: 0 15px;
     margin: 0 auto; 
-}
-.portfolio {
-    padding: 120px 0 120px 0; 
 }
 .section-portfolio-title {
     font-family: Roboto, sans-serif;
@@ -371,14 +370,12 @@ ul, ol {
 .page-footer {
     padding: 100px 0;
     background-color:#2e2f42; 
-   
 }
 .container-footer {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    
 }
 .footer-logo {
     font-family: Raleway, sans-serif;
